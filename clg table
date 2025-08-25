@@ -1,0 +1,11 @@
+[ CREATE TABLE colleges (
+    college_id NUMBER PRIMARY KEY,
+    college_name VARCHAR2(100),
+    city VARCHAR2(50),
+    established_year NUMBER,
+    type VARCHAR2(20)
+);
+ INSERT INTO colleges (college_id, college_name, city, established_year, type)
+VALUES (2, 'National University of Sciences and Technology', 'Islamabad', 1991, 'Public');
+INSERT INTO colleges (college_id, college_name, city, established_year, type)
+VALUES (3, 'Lahore University of Management Sciences', 'Lahore', 1984, 'Private');
